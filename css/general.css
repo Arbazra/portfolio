@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+}
+h1{
+    color: #fffffe;
+}
+h3{
+    color: #fffffe !important;
+}
+h4{
+    color: #94a1b2;
+}
+#white{
+    color: #fffffe;
+    margin-top: 1rem;
+}

@@ -1,0 +1,25 @@
+@media screen and (width < 500px)
+{
+    .container4 .card {
+        /* background-color: #242629; */
+        padding: 0px;
+        /* margin: 0 2rem; */
+        width: 20rem !important;
+    }
+    .container3 .card {
+        background-color: #242629;
+        padding: 0px;
+        /* margin: 0 2rem; */
+        width: 20rem !important;
+    }
+    .row>* {
+        flex-shrink: 0;
+        width: 83%;
+        max-width: 100%;
+        
+    }
+    .pic img {
+        width: 14rem;
+        object-fit: contain;
+    }
+}

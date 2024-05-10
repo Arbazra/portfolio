@@ -1,0 +1,246 @@
+
+/* ------------------- 1st navbar ------------------------- */
+
+.top{
+    width: 100vw;
+    background-color: #7f5af0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top a{
+    padding: 0 10px;
+    color: #fffffe;
+}
+.top a:hover{
+    color: burlywood;
+}
+
+
+/* --------------------------------------------------------- */
+
+/* --------------------2nd navbar ------------------------ */
+.navbar-expand-lg .navbar-nav {
+    /* flex-direction: row; */
+    justify-content: flex-end;
+}
+.navbar-nav a{
+    color: #fffffe;
+}
+.navbar-nav a:hover{
+    color: lightblue;
+}
+/* -------------------------------------------------------- */
+
+/* ---------------------- container 1 --------------------- */
+
+.container1{
+    background-color: #16161a;
+    width: 100vw;
+    height: auto;
+    color: #fffffe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row{
+    align-items: center;
+}
+.container1 img{
+    height: 30rem;
+    border-radius: 15rem;
+    object-fit: cover;
+    box-shadow: 2px 2px 40px gray;
+}
+.card{
+    padding: 5rem;
+    background-color: #16161a;
+}
+.card-body h2{
+    color: #7f5af0;
+
+}
+.card-body p{
+    color: #a8b2d1;
+}
+.card-body .btn{
+    background-color: #7f5af0;
+    font-weight: bold;
+    color: #fffffe;
+}
+.card-body .btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    
+}
+.card-body{
+    padding: 2rem;
+}
+/* -------------------------------------------------------- */
+
+/* ------------------------ container 2--------------------  */
+.container2{
+    background-color: #242629;
+    width: 100vw;
+    height: auto;
+    color: #fffffe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container2 .card{
+    background-color: #242629;
+    padding: 5rem;
+    border: none;
+}
+
+.container2 .card-body h2{
+    color: #fffffe;
+
+}
+.container2 .card-body p{
+    color: #94a1b2;
+}
+.progress-bar{
+    background-color: #2cb67d;
+    
+}
+.progress{
+    height: 5px;
+}
+/* --------------------------------------------------------- */
+
+/* ------------- container 3--------------------------------- */
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #16161a;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+    height: auto;
+}
+.container3 .card{
+    background-color: #242629;
+    padding: 0px;
+    margin: 0 2rem;
+    
+}
+.container3 .card:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+.container3 .card img{
+    height: 15rem;
+    width: 100%;
+    object-fit: contain;
+    padding: 2rem;
+ 
+}
+.container3 .row{
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+/* ----------------------------------------------------------- */
+
+/* ------------------- container4 ------------------------------ */
+.container4{
+    background-color: #242629;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #16161a; */
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+    height: auto;
+}
+.container4 .row{
+    gap: 2rem;
+    justify-content: center;
+}
+.container4 .card{
+    /* background-color: #242629; */
+    padding: 0px;
+    margin: 0 2rem;
+    
+}
+.container4 .card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+/* ------------------------------------------------------------ */
+
+/* -------------container5--------------------------------------- */
+.container5{
+    background-color: #16161a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #16161a; */
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem;
+    height: auto;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-label {
+    margin-bottom: .5rem;
+    color:#7f5af0;
+    font-weight: bold;
+}
+
+.cform .btn{
+    background-color: #7f5af0;
+    font-weight: bold;
+    color: #fffffe;
+    width: 10rem;
+}
+.cform .btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    
+}
+.pic img{
+    width: 25rem;
+    object-fit: contain;
+}
+.container5 .row{
+    gap: 2rem;
+    justify-content: center;
+}
+/* ------------------------------------------------------------- */
+/* -------------fixed button arrow------------------------------ */
+.fixed{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100;
+    background-color: #2cb67d;
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fixed a{
+    color: #fffffe;
+    font-size: large;
+    font-weight: bold;
+}
+.fixed:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+/*  */
