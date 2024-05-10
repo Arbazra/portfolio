@@ -1,5 +1,12 @@
 @media screen and (width < 500px)
 {
+    .card {
+        padding: 0px;
+        /* background-color: #16161a; */
+    }
+    .container1 img {
+        height: auto;
+    }
     .container4 .card {
         /* background-color: #242629; */
         padding: 0px;
@@ -12,14 +19,32 @@
         /* margin: 0 2rem; */
         width: 20rem !important;
     }
-    .row>* {
+    .row>* 
+    {
         flex-shrink: 0;
-        width: 83%;
+        width: 100%;
         max-width: 100%;
-        
+        padding: 1rem;
     }
+    
     .pic img {
         width: 14rem;
         object-fit: contain;
+    }
+    .container2 .card {
+        background-color: #242629;
+        padding: 1rem;
+        border: none;
+    }
+    .container5 {
+        background-color: #16161a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #16161a; */
+        flex-direction: column;
+        gap: 3rem;
+        padding: 1rem;
+        height: auto;
     }
 }
