@@ -21,3 +21,9 @@ h4{
     color: #fffffe;
     margin-top: 1rem;
 }
+i{
+    color: #fffffe;
+}
+a{
+    text-decoration: none !important;
+}

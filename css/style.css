@@ -52,6 +52,7 @@
     border-radius: 15rem;
     object-fit: cover;
     box-shadow: 2px 2px 40px gray;
+    
 }
 .card{
     padding: 5rem;
@@ -68,10 +69,21 @@
     background-color: #7f5af0;
     font-weight: bold;
     color: #fffffe;
+    border: none;
 }
 .card-body .btn:hover{
-    transform: scale(1.1);
+    transform: scale(1.1); 
     transition: transform 0.3s;
+    
+}
+#projects .card:hover{
+    transform: scale(1.1) !important; 
+    transition: transform 0.3s !important;
+    
+}
+#services .card:hover{
+    transform: scale(1.1) !important; 
+    transition: transform 0.3s !important;
     
 }
 .card-body{
@@ -109,6 +121,21 @@
 }
 .progress{
     height: 5px;
+}
+.progress-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 30px;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 1s ease-out;
 }
 /* --------------------------------------------------------- */
 
@@ -244,3 +271,8 @@
 }
 
 /*  */
+
+
+footer{
+    background-color: #7f5af0;
+}
