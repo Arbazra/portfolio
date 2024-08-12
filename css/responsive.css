@@ -1,50 +1,24 @@
-@media screen and (width < 500px)
-{
-    .card {
-        padding: 0px;
-        /* background-color: #16161a; */
+@media screen and (width<500px){
+    #services .card{
+        width: 20rem !important;
+    }
+    #projects .card{
+        width: 20rem !important;
+    }
+    .col-md-6 .card-body {
+        padding: 2rem 0rem !important;
+    }
+    .col-md-5 .card-body {
+        padding: 2rem 0rem !important;
     }
     .container1 img {
-        height: auto;
+        height: 18rem !important;
     }
-    .container4 .card {
-        /* background-color: #242629; */
-        padding: 0px;
-        /* margin: 0 2rem; */
-        width: 20rem !important;
+    #contact form{
+        width: 100% !important;
     }
-    .container3 .card {
-        background-color: #242629;
-        padding: 0px;
-        /* margin: 0 2rem; */
-        width: 20rem !important;
-    }
-    .row>* 
-    {
-        flex-shrink: 0;
-        width: 100%;
-        max-width: 100%;
-        padding: 1rem;
-    }
-    
     .pic img {
-        width: 14rem;
+        width: 17rem !important;
         object-fit: contain;
-    }
-    .container2 .card {
-        background-color: #242629;
-        padding: 1rem;
-        border: none;
-    }
-    .container5 {
-        background-color: #16161a;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* background-color: #16161a; */
-        flex-direction: column;
-        gap: 3rem;
-        padding: 1rem;
-        height: auto;
     }
 }
